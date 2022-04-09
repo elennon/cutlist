@@ -13,5 +13,6 @@ C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateRes
 C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.CoreCompileInputs.cache
 C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
-C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\OnlyDrawers.g.cs
-C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\wardrobePage.g.cs
+C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WardrobeWindow.g.cs
+C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\WardrobeWindow.baml
+C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\DrawersWindow.g.cs

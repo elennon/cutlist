@@ -10,8 +10,8 @@
         <StackPanel>
             <Label Content="Unit Type" HorizontalAlignment="Center" Margin="20" ></Label>
             <CheckBox Content="wardrobe" x:Name="wardrobeCheck" Click="wardrobeCheck_Click"></CheckBox>
-            <CheckBox Content="wardrobe" x:Name="onlyDrawersCheck" Click="onlyDrawersCheck_Click"></CheckBox>
-            <CheckBox Content="wardrobe" x:Name="drawerandTallCheck" Click="drawerandTallCheck_Click"></CheckBox>
+            <CheckBox Content="only drawers" x:Name="onlyDrawersCheck" Click="onlyDrawersCheck_Click"></CheckBox>
+            <CheckBox Content="drawerAndTallUnit" x:Name="drawerandTallCheck" Click="drawerandTallCheck_Click"></CheckBox>
         </StackPanel>
     </Grid>
 </Window>

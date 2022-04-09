@@ -1,0 +1,72 @@
+﻿<Window x:Class="WpfApp1.DrawersWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="DrawersWindow" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <DockPanel DockPanel.Dock="Top">
+                <TextBlock Text="Tall Unit" FontSize="20" Margin="30" ></TextBlock>
+            </DockPanel>
+            <DockPanel Background="Bisque">
+                <StackPanel DockPanel.Dock="Left">
+                    <TextBlock>unit width</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="width"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">1390</TextBox>
+                    <TextBlock>full height</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="fullHeight"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">1450</TextBox>
+                    <TextBlock>Kicker height</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="kicker"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">60</TextBox>
+                    <TextBlock>Bottom upstand height</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="bottomUpstandHeight"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">300</TextBox>
+                    <TextBlock>Flat top width</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="flatTopWidth"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">0</TextBox>
+                    <TextBlock>Angle</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="angle"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">50</TextBox>
+                </StackPanel>
+                <StackPanel DockPanel.Dock="Right">
+                    <TextBlock>unit depth</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="depth"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">600</TextBox>
+                    <TextBlock>drawer number</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="drawerNumber"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">300</TextBox>
+                    <TextBlock>drawer section width</TextBlock>
+                    <TextBox HorizontalAlignment="Left" x:Name ="drawerSectionWidth"
+                Height="30px"
+                Width="100px"
+                Margin="10,10,10,10">300</TextBox>
+                    <Button Name="btn1" Background="Pink" HorizontalAlignment="Left"
+                    BorderBrush="Black" BorderThickness="1" 
+                    Click="btn1_Click" >
+                        cutting list
+                    </Button>
+                </StackPanel>
+            </DockPanel>
+        </DockPanel>
+    </Grid>
+</Window>

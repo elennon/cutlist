@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\obj\Debug\
+C:\Users\Asus\Documents\c# projects\cutlist\WpfApp1\WpfApp1\obj\Debug\
 WpfApp1
 none
 false
 DEBUG;TRACE
-C:\Users\suzco\Documents\c#\WpfApp1\WpfApp1\App.xaml
-31655117256
+C:\Users\Asus\Documents\c# projects\cutlist\WpfApp1\WpfApp1\App.xaml
+3-1206926649
 
-12279511120
-13-1505183044
-MainWindow.xaml;OnlyDrawers.xaml;wardrobePage.xaml;
+14-948387561
+13-1310406943
+DrawersWindow.xaml;MainWindow.xaml;WardrobeWindow.xaml;
 
 True
 

@@ -40,12 +40,14 @@ namespace WpfApp1
 
         private void wardrobeCheck_Click(object sender, RoutedEventArgs e)
         {
-            NavigationService.Navigate(new wardrobePage());
+            //NavigationService.Navigate(new wardrobePage());
         }
 
         private void onlyDrawersCheck_Click(object sender, RoutedEventArgs e)
         {
-            //NavigationService.Navigate(new Page2());
+            //NavigationService.Navigate(new DrawersWindow());
+            DrawersWindow p = new DrawersWindow();
+            p.Show();
         }
 
         private void drawerandTallCheck_Click(object sender, RoutedEventArgs e)
