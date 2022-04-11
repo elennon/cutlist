@@ -52,7 +52,9 @@ namespace WpfApp1
 
         private void drawerandTallCheck_Click(object sender, RoutedEventArgs e)
         {
-            //NavigationService.Navigate(new Page2());
+            //NavigationService.Navigate(new DrawersWindow());
+            plop p = new plop();
+            p.Show();
         }
     }
 }

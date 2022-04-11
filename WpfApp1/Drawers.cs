@@ -21,10 +21,11 @@ namespace WpfApp1
         public firstDrawerSectionUnit firstDrawerSectionUnit = new firstDrawerSectionUnit();
         public secondDrawerSectionUnit secondDrawerSectionUnit = new secondDrawerSectionUnit();
         public thirdDrawerSectionUnit thirdDrawerSectionUnit = new thirdDrawerSectionUnit();
-        
+        public int tallUnitDoorWidth;
+
         public Drawers(int baseWidthP, int sideHeightP, int kickerP, int bottomUpstandHeightP,
             int flatTopWidthP, int angleP, int drawerNumberP,
-            int depthP, int drawerSectionWidthP)
+            int depthP)
         {
             baseWidth = baseWidthP;
             sideHeight = sideHeightP;
@@ -34,7 +35,6 @@ namespace WpfApp1
             cuttingAngle = angleP;
             drawerNumber = drawerNumberP;
             depth = depthP;
-            drawerSectionWidth = drawerSectionWidthP;
     }
 
         public void getCuttingList(Drawers understairDrawerUnit)

@@ -15,21 +15,21 @@ using System.Windows.Shapes;
 namespace WpfApp1
 {
     /// <summary>
-    /// Interaction logic for DrawersWindow.xaml
+    /// Interaction logic for plop.xaml
     /// </summary>
-    public partial class DrawersWindow : Window
+    public partial class plop : Window
     {
-        public DrawersWindow()
+        public plop()
         {
             InitializeComponent();
         }
 
-        private void btn1_Click(object sender, RoutedEventArgs e)
+        private void cuttingList_Click(object sender, RoutedEventArgs e)
         {
             Drawers unit = new Drawers(Int32.Parse(width.Text),
                 Int32.Parse(fullHeight.Text),
                 Int32.Parse(kicker.Text),
-                Int32.Parse(bottomUpstandHeight.Text),
+                Int32.Parse(lowSideHeight.Text),
                 Int32.Parse(flatTopWidth.Text),
                 Int32.Parse(angle.Text),
                 Int32.Parse(drawerNumber.Text),
